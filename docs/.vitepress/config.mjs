@@ -6,7 +6,7 @@ export default defineConfig({
   description: "My Blog",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    base: '/AE86/',
+    base: '/blog/',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
