@@ -4,8 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Blog",
   description: "My Blog",
-  assetsDir: 'static',
-  // base: '/blog/',
+  assetsDir: 'assets',
+  base: './',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
    
