@@ -4,9 +4,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Blog",
   description: "My Blog",
+  assetsDir: 'static',
+  // base: '/blog/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    base: './',
+   
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
