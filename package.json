@@ -14,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "vitepress": "1.0.0-rc.20"
+  },
+  "dependencies": {
+    "clipboard": "^2.0.11"
   }
 }

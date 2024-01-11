@@ -2,7 +2,8 @@
 import { h } from 'vue'
 import Theme from 'vitepress/theme'
 import './style.css'
-
+import Color from '../components/Color.vue'
+import ColorList from '../components/ColorList.vue'
 export default {
   extends: Theme,
   Layout: () => {
@@ -12,5 +13,8 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     // ...
+    // 注册自定义全局组件
+    app.component('Color', Color)
+    app.component('ColorList', ColorList)
   }
 }

@@ -137,3 +137,36 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+
+
+/**
+ * 字定义样式
+ * -------------------------------------------------------------------------- */
+
+ /* .VPSidebar {
+  padding-left: 40px!important;
+ } */
+
+.vp-doc div[class*='language-'] {
+  min-height: 60px;
+}
+/* .VPDoc {
+  padding-left: 10px!important;
+  padding-right: 10px!important;
+} */
+.content-container {
+  max-width: 100% !important;
+}
+.content {
+  padding-left: 10px!important;
+  padding-right: 10px!important;
+}
+
+img {
+  box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+}
+
+.line1 {
+  padding: 4px 0;
+  border-bottom: 2px solid #f44;
+}
