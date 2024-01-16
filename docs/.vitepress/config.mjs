@@ -67,6 +67,10 @@ export default defineConfig({
             { text: '线性表', link: '/data-structure/3-2' },
             { text: '链表', link: '/data-structure/3-3' },
             { text: '堆栈', link: '/data-structure/3-4' },
+            { text: '队列', link: '/data-structure/3-5' },
+            { text: '树', link: '/data-structure/3-6' },
+            { text: '堆', link: '/data-structure/3-7' },
+            { text: '图', link: '/data-structure/3-8' },
           ]
         },
       ],
