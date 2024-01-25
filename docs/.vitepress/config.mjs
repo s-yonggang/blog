@@ -70,7 +70,9 @@ export default defineConfig({
             { text: '队列', link: '/data-structure/3-5' },
             { text: '树', link: '/data-structure/3-6' },
             { text: '堆', link: '/data-structure/3-7' },
-            { text: '图', link: '/data-structure/3-8' },
+            { text: '哈夫曼树', link: '/data-structure/3-8' },
+            { text: '集合', link: '/data-structure/3-9' },
+            { text: '图', link: '/data-structure/3-10' },
           ]
         },
       ],
