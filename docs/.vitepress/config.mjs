@@ -13,8 +13,9 @@ export default defineConfig({
       provider: 'local'
     },
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
+      // { text: 'Home', link: '/' },
+      // { text: 'Examples', link: '/markdown-examples' },
+      { text: '垃圾回收机制', link: '/' },
       { text: 'Color', link: '/color/index' },
       {
         text: '3DVisualization',
@@ -35,9 +36,9 @@ export default defineConfig({
     sidebar: {
       '/color/': [
         {
-          text: 'Color',
+          text: 'Color组件',
           items: [
-            { text: 'Color', link: '/color/index' },
+            { text: '示例', link: '/color/index' },
           ]
         }
       ],
