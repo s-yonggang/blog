@@ -30,6 +30,13 @@ export default defineConfig({
           { text: '数据结构', link: '/data-structure/index' },
           { text: '算法', link: '/algorithm/' },
         ]
+      },
+      {
+        text: 'Svg vs Canvas',
+        items: [
+          { text: 'Svg', link: '/data-structure/index' },
+          { text: 'Canvas', link: '/algorithm/' },
+        ]
       }
     ],
 
@@ -44,7 +51,7 @@ export default defineConfig({
       ],
       '/data-structure/': [
         {
-          text: '数据结构',
+          text: '数据结构基本概念',
           items: [
             { text: '什么是数据结构', link: '/data-structure/index' },
             { text: '怎么样查找图书', link: '/data-structure/1-1' },
@@ -54,7 +61,7 @@ export default defineConfig({
           ]
         },
         {
-          text: '算法',
+          text: '算法基本概念',
           items: [
             { text: '算法定义', link: '/data-structure/2-1' },
             { text: '空间复杂度、时间复杂度', link: '/data-structure/2-2' },
@@ -62,18 +69,35 @@ export default defineConfig({
           ]
         },
         {
-          text: '数据结构与算法',
+          text: '数据结构',
           items: [
             { text: '多项式的表示', link: '/data-structure/3-1' },
             { text: '线性表', link: '/data-structure/3-2' },
             { text: '链表', link: '/data-structure/3-3' },
-            { text: '堆栈', link: '/data-structure/3-4' },
+            { text: '栈', link: '/data-structure/3-4' },
             { text: '队列', link: '/data-structure/3-5' },
             { text: '树', link: '/data-structure/3-6' },
             { text: '堆', link: '/data-structure/3-7' },
             { text: '哈夫曼树', link: '/data-structure/3-8' },
             { text: '集合', link: '/data-structure/3-9' },
             { text: '图', link: '/data-structure/3-10' },
+            { text: '散列', link: '/data-structure/3-11' },
+            { text: '串', link: '/data-structure/3-12' },
+          ]
+        },
+        {
+          text: '算法',
+          items: [
+            { text: '排序算法概述', link: '/data-structure/4-1' },
+            { text: '冒泡排序', link: '/data-structure/4-2' },
+            { text: '插入排序', link: '/data-structure/4-3' },
+            { text: '希尔排序', link: '/data-structure/4-4' },
+            { text: '选择排序', link: '/data-structure/4-5' },
+            { text: '堆排序', link: '/data-structure/4-6' },
+            { text: '归并排序', link: '/data-structure/4-7' },
+            { text: '哈夫曼树', link: '/data-structure/4-8' },
+            { text: '集合', link: '/data-structure/4-9' },
+            { text: '图', link: '/data-structure/4-10' },
           ]
         },
       ],

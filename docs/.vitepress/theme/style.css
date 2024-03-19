@@ -187,3 +187,30 @@ body::-webkit-scrollbar-track,
   /* background: #ededed; */
   /* border-radius: 10px; */
 }
+
+
+/* 图 */
+.dfs-graph + table td,
+.dfs-graph + table th,
+.bfs-graph + table td,
+.bfs-graph + table th {
+  padding: 0;
+  width: 4em;
+  height: 4em;
+  background-color: #c2c2c2;
+  text-align: center;
+}
+
+.bfs-graph + table td,
+.bfs-graph + table th {
+  width: 2.4em;
+  height: 2.4em;
+}
+
+/* tag */
+.sup-tag {
+  padding: 2px;
+  font-weight: 700;
+  background-color: #00bb8c;
+  border-radius: 2px;
+}
